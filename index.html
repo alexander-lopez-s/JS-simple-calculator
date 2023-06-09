@@ -5,9 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style/index.css" />
-    <title>JS starter</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>JS Calculator</title>
   </head>
   <body>
-    <script src="./src/index.js"></script>
+    <div class="main-container">
+      <div class="container">
+    <input type="text" class="screen" id="screen" placeholder="0">
+    <div id="calculator-container" class="calculator-container">
+      <input type="button" class="clear" id="clear" value="clear">
+      <input type="button" class="equals" id="equals" value="=">
+    </div>
+  </div>
+  </div>
+    <script src="./src/index.js" async defer></script>
   </body>
 </html>
